@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="q3.Data"/>
+    <fullyQualifiedTypeName name="q3.DataChild"/>
+    <fullyQualifiedTypeName name="protectedpac.Child"/>
+    <fullyQualifiedTypeName name="q5.Account"/>
+    <fullyQualifiedTypeName name="q5.HR"/>
+    <fullyQualifiedTypeName name="q5.Manager"/>
+    <fullyQualifiedTypeName name="q5.Worker"/>
+    <fullyQualifiedTypeName name="com.hospital.staff.doctor.salary.Salary"/>
+    <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+    <fullyQualifiedTypeName name="com.hospital.staff.nurse.salary.NurseSalary"/>
+    <fullyQualifiedTypeName name="variable.Emp"/>
+    <fullyQualifiedTypeName name="pojo.Pojo"/>
+    <fullyQualifiedTypeName name="parameterised.Emp"/>
+    <fullyQualifiedTypeName name="q1.Emp"/>
+    <fullyQualifiedTypeName name="q2.Emp"/>
+    <fullyQualifiedTypeName name="q4.Emp"/>
+    <fullyQualifiedTypeName name="q6.Hpbby"/>
+    <fullyQualifiedTypeName name="q6.Emp"/>
+    <fullyQualifiedTypeName name="q6.Address"/>
+    <fullyQualifiedTypeName name="q6.Hobby"/>
+    <fullyQualifiedTypeName name="hospital.Doctors"/>
+    <fullyQualifiedTypeName name="hospital.Nurse"/>
+    <fullyQualifiedTypeName name="hospital.Patient"/>
+    <fullyQualifiedTypeName name="hospital.Hospital"/>
+</qualifiedTypeNameHistroy>

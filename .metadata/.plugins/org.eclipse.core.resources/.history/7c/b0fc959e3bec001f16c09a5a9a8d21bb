@@ -1,0 +1,12 @@
+package overloading;
+
+
+class Account{
+	double sal(int sal) {
+		return sal;
+	}
+}
+
+public class Main {
+
+}
