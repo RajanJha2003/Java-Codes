@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="com.hospital.staff.nurse.salary.NurseSalary"/>
     <fullyQualifiedTypeName name="variable.Emp"/>
-    <fullyQualifiedTypeName name="pojo.Pojo"/>
     <fullyQualifiedTypeName name="parameterised.Emp"/>
     <fullyQualifiedTypeName name="q1.Emp"/>
     <fullyQualifiedTypeName name="q2.Emp"/>
@@ -39,4 +38,6 @@
     <fullyQualifiedTypeName name="containment.Emp"/>
     <fullyQualifiedTypeName name="containment.Address"/>
     <fullyQualifiedTypeName name="containment.Hobbies"/>
+    <fullyQualifiedTypeName name="parameterised_constructor.Emp"/>
+    <fullyQualifiedTypeName name="pojo.Pojo"/>
 </qualifiedTypeNameHistroy>
