@@ -25,4 +25,18 @@
     <fullyQualifiedTypeName name="hospital.Nurse"/>
     <fullyQualifiedTypeName name="hospital.Patient"/>
     <fullyQualifiedTypeName name="hospital.Hospital"/>
+    <fullyQualifiedTypeName name="basicclass.Emp"/>
+    <fullyQualifiedTypeName name="staticnonstatic.Emp"/>
+    <fullyQualifiedTypeName name="access_specifiers.Emp"/>
+    <fullyQualifiedTypeName name="access_specifier2.B"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="overloading.Account"/>
+    <fullyQualifiedTypeName name="overriding.Account"/>
+    <fullyQualifiedTypeName name="overriding.Employee"/>
+    <fullyQualifiedTypeName name="overriding.Main"/>
+    <fullyQualifiedTypeName name="overriding.Manager"/>
+    <fullyQualifiedTypeName name="overriding.HR"/>
+    <fullyQualifiedTypeName name="containment.Emp"/>
+    <fullyQualifiedTypeName name="containment.Address"/>
+    <fullyQualifiedTypeName name="containment.Hobbies"/>
 </qualifiedTypeNameHistroy>

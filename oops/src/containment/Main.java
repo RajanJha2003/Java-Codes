@@ -47,17 +47,18 @@ class Emp{
 		return "Emp [name=" + name + ", id=" + id + ", address=" + address + ", hobbies=" + hobbies + "]";
 	}
 	
+	
+	
 }
 
 
 public class Main {
 	
 	public static void main(String[] args) {
-		Address address=new Address("Kandivali", "Mumbai");
-		Hobbies hobbies=new Hobbies("playing", "coding");
-		 Emp emp=new Emp("Rajan", 10, address, hobbies);
+		
+		 Emp emp=new Emp("Rajan", 10, new Address("Mumbai", "kandivali"), new Hobbies("hr", "hr"));
 		 System.out.println(emp);
-		 System.out.println(emp.address.areaname);
+		 System.out.println(emp.address.cityname);
 	}
 
 }

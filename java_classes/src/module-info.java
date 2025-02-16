@@ -4,5 +4,5 @@
 /**
  * 
  */
-module chp1 {
+module java_classes {
 }
