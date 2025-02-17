@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="q5.HR"/>
     <fullyQualifiedTypeName name="q5.Manager"/>
     <fullyQualifiedTypeName name="q5.Worker"/>
-    <fullyQualifiedTypeName name="com.hospital.staff.doctor.salary.Salary"/>
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="com.hospital.staff.nurse.salary.NurseSalary"/>
     <fullyQualifiedTypeName name="variable.Emp"/>
@@ -40,4 +39,23 @@
     <fullyQualifiedTypeName name="containment.Hobbies"/>
     <fullyQualifiedTypeName name="parameterised_constructor.Emp"/>
     <fullyQualifiedTypeName name="pojo.Pojo"/>
+    <fullyQualifiedTypeName name="variables.Emp"/>
+    <fullyQualifiedTypeName name="hospital.staff.Doctor"/>
+    <fullyQualifiedTypeName name="com.hospital.staff.doctor.salary.Salary"/>
+    <fullyQualifiedTypeName name="hospital.staff.Nurse"/>
+    <fullyQualifiedTypeName name="finalize.Emp"/>
+    <fullyQualifiedTypeName name="final_keyword.Emp"/>
+    <fullyQualifiedTypeName name="dynamic_method_dispatch.RBI"/>
+    <fullyQualifiedTypeName name="dynamic_method_dispatch.SBI"/>
+    <fullyQualifiedTypeName name="dynamic_method_dispatch.HDFC"/>
+    <fullyQualifiedTypeName name="dynamic_method_dispatch.ICICI"/>
+    <fullyQualifiedTypeName name="overloading_overriding.Account"/>
+    <fullyQualifiedTypeName name="superkeyword.Company"/>
+    <fullyQualifiedTypeName name="superkeyword.Emp"/>
+    <fullyQualifiedTypeName name="single_inheritance.Company"/>
+    <fullyQualifiedTypeName name="single_inheritance.Employee"/>
+    <fullyQualifiedTypeName name="multilevel_inheritance.Company"/>
+    <fullyQualifiedTypeName name="multilevel_inheritance.Department"/>
+    <fullyQualifiedTypeName name="heirarchical_inheritance.Company"/>
+    <fullyQualifiedTypeName name="heirarchical_inheritance.Manager"/>
 </qualifiedTypeNameHistroy>
