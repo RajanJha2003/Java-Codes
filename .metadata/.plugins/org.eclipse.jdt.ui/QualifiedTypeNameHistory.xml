@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="q3.Data"/>
-    <fullyQualifiedTypeName name="q3.DataChild"/>
-    <fullyQualifiedTypeName name="protectedpac.Child"/>
-    <fullyQualifiedTypeName name="q5.Account"/>
-    <fullyQualifiedTypeName name="q5.HR"/>
-    <fullyQualifiedTypeName name="q5.Manager"/>
-    <fullyQualifiedTypeName name="q5.Worker"/>
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="com.hospital.staff.nurse.salary.NurseSalary"/>
     <fullyQualifiedTypeName name="variable.Emp"/>
@@ -58,4 +50,14 @@
     <fullyQualifiedTypeName name="multilevel_inheritance.Department"/>
     <fullyQualifiedTypeName name="heirarchical_inheritance.Company"/>
     <fullyQualifiedTypeName name="heirarchical_inheritance.Manager"/>
+    <fullyQualifiedTypeName name="abstract_class.Company"/>
+    <fullyQualifiedTypeName name="abstract_class.Employee"/>
+    <fullyQualifiedTypeName name="interface_class.Company"/>
+    <fullyQualifiedTypeName name="interface_class.Manager"/>
+    <fullyQualifiedTypeName name="interface_class.Employee"/>
+    <fullyQualifiedTypeName name="contract.Policy"/>
+    <fullyQualifiedTypeName name="implementor.Company"/>
+    <fullyQualifiedTypeName name="consumer.Account"/>
+    <fullyQualifiedTypeName name="consumer.Manager"/>
+    <fullyQualifiedTypeName name="consumer.Employee"/>
 </qualifiedTypeNameHistroy>
