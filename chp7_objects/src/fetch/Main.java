@@ -1,5 +1,8 @@
 package fetch;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.util.Objects;
 
 class Emp implements Cloneable{
@@ -64,6 +67,23 @@ public class Main {
 		
 		Emp empClone=(Emp) emp.clone();
 		System.out.println(empClone);
+		
+		Method method[]=emp.getClass().getMethods();
+		
+		for (int i = 0; i < method.length; i++) {
+		System.out.println(method[i]);
+			
+		}
+		Constructor constructor[]=emp.getClass().getConstructors();
+		for (int i = 0; i < constructor.length; i++) {
+			System.out.println(constructor[i]);
+			
+		}
+		Field field[]=emp.getClass().getFields();
+		for (int i = 0; i < field.length; i++) {
+		System.out.println(field[i]);
+			
+		}
 	    
 		
 		emp=null;
