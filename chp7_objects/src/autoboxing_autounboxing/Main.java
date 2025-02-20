@@ -9,9 +9,7 @@ public class Main {
 	System.out.println(b);
 	
 	
-	Integer c=new Integer(20);
-	int d=c;   // autounboxing
-	
-	System.out.println(d);
+	int c=b; // autounboxing
+	System.out.println(c);
 }
 }
