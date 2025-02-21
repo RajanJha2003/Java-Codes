@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="parameterised_constructor.Emp"/>
-    <fullyQualifiedTypeName name="pojo.Pojo"/>
     <fullyQualifiedTypeName name="variables.Emp"/>
     <fullyQualifiedTypeName name="hospital.staff.Doctor"/>
     <fullyQualifiedTypeName name="com.hospital.staff.doctor.salary.Salary"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="B"/>
     <fullyQualifiedTypeName name="local_inner_class.A"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="newt.A"/>
+    <fullyQualifiedTypeName name="newt.Main"/>
 </qualifiedTypeNameHistroy>
