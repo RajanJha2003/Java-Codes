@@ -4,5 +4,5 @@
 /**
  * 
  */
-module ch7_objects {
+module chp7_objects {
 }

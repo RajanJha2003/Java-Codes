@@ -1,8 +1,0 @@
-package access_specifiers;
-
-public class Emp {
-	public int empId=10;            
-    private String empName="Rajan";     
-    protected double salary=10000;     
-    int departmentId=200;            
-}

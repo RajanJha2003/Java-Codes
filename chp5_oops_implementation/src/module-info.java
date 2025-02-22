@@ -4,5 +4,5 @@
 /**
  * 
  */
-module chp5 {
+module chp5_oops_implementation {
 }

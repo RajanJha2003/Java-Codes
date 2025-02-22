@@ -4,5 +4,5 @@
 /**
  * 
  */
-module chp4 {
+module chp4_fundamentals {
 }

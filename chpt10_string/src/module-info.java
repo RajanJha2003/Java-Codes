@@ -4,5 +4,5 @@
 /**
  * 
  */
-module chp10_string {
+module chpt10_string {
 }
