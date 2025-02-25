@@ -1,31 +1,44 @@
 package user_defined_exception;
 
-class VoteException extends Exception {
-	
-}
-
-
-
-class Vote{
-	void eligible(int age) throws VoteException {
-		if(age<18) {
-			throw new VoteException();
-		}else {
-			System.out.println("You are eligible to vote");
-		}
+class BalanceException extends Exception {
+	public BalanceException() {
+	   super("Low balance");  
 	}
 	
 }
 
+
+
+class Account {
+	int amt=100000;
+	
+	
+	void withdraw(int amt) throws Exception {
+		if(this.amt>amt) {
+			this.amt-=amt;
+			System.out.println("Successful,Remainig Balance"+this.amt);
+			
+            			
+		}else {
+			throw new BalanceException();
+		}
+	}
+}
+
+
+
+
+
 public class Main {
     public static void main(String[] args) {
-		Vote vote=new Vote();
-		try {
-			vote.eligible(13);
-		} catch (VoteException e) {
-			// TODO Auto-generated catch block
+		
+    	Account account=new Account();
+    	try {
+    		account.withdraw(1);
+			
+		} catch (Exception e) {
 			System.out.println(e);
-			e.printStackTrace();
+			
 		}
 	}
 }
