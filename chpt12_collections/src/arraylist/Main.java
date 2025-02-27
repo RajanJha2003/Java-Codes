@@ -32,8 +32,12 @@ public class Main {
             System.out.println("Element not found");
         }
 
-       
+        
+        
+        
+    	
         boolean found = false;
+        int index=0;
         Iterator<Integer> iterator = arrayList.iterator();
         while (iterator.hasNext()) {
              
@@ -41,12 +45,13 @@ public class Main {
                 found = true;
                 break;  
             }
+            index++;
        
         }
 
        
         if (found) {
-            System.out.println("Element found");
+            System.out.println("Element found at"+index);
         } else {
             System.out.println("Element not found");
         }
