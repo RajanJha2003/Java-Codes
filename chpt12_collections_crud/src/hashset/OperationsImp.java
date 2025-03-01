@@ -5,8 +5,7 @@ package hashset;
 import java.util.HashSet;
 import java.util.Iterator;
 
-import java.util.LinkedList;
-import java.util.ListIterator;
+
 
 
 public class OperationsImp implements Operations {
