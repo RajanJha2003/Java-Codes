@@ -7,9 +7,22 @@ public class Main {
 		
 		
 		HashMap<Integer, String> hashMap=new HashMap<Integer, String>();
-		hashMap.put(1, "Rajan");
-		hashMap.put(2, "Jha");
-		hashMap.put(3, "Developer");
+		Emp e1 = new Emp();
+        e1.setId(1);
+        e1.setName("Rajan");
+
+        Emp e2 = new Emp();
+        e2.setId(2);
+        e2.setName("Jha");
+
+        Emp e3 = new Emp();
+        e3.setId(3);
+        e3.setName("Developer");
+
+        // Using HashMap to store employee data
+        hashMap.put(e1.getId(), e1.getName());
+        hashMap.put(e2.getId(), e2.getName());
+        hashMap.put(e3.getId(), e3.getName());
 		
 		OperationsImp imp=new OperationsImp();
 		imp.insertData(hashMap);
