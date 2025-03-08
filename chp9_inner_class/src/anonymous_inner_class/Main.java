@@ -19,7 +19,7 @@ class Company {
 
 public class Main {
     public static void main(String[] args) {
-        // Anonymous inner class for Employee
+        
         Employee emp = new Employee() {
             @Override
             public void work() {
@@ -28,7 +28,7 @@ public class Main {
         };
         emp.work();
 
-        // Anonymous inner class for Department
+        
         Department dept = new Department() {
             @Override
             void departmentInfo() {
@@ -37,7 +37,7 @@ public class Main {
         };
         dept.departmentInfo();
 
-        // Anonymous inner class for Company
+       
         Company company = new Company() {
             void companyInfo() {
                 System.out.println("Company Name:RJ");
