@@ -8,17 +8,18 @@ public class Main {
 		System.out.println("Hello");
 
 		
+		int salary=100000;
 		try {
-			int a=10/0;
-			System.out.println(a);
+			int bonus=salary/0;
+			
 		} catch (Exception e) {
-			System.out.println(e);
 			// TODO: handle exception
+			System.out.println(e);
 		}
 		
 		try {
-			String s1=null;
-			System.out.println(s1.length());
+			String empName=null;
+			System.out.println(empName.length());
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println(e);
@@ -26,8 +27,8 @@ public class Main {
 		
 		try {
 
-			String name="Rajan";
-			int i=Integer.parseInt(name);
+			String empName="Rajan";
+			int i=Integer.parseInt(empName);
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println(e);

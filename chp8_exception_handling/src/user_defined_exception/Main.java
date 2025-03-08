@@ -34,7 +34,7 @@ public class Main {
 		
     	Account account=new Account();
     	try {
-    		account.withdraw(1);
+    		account.withdraw(200000000);
 			
 		} catch (Exception e) {
 			System.out.println(e);

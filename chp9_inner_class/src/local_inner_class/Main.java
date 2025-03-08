@@ -1,22 +1,24 @@
 package local_inner_class;
 
-class A{
-	void meth() {
-		class B{
-			void innermeth() {
-				System.out.println("local inenr class meth");
-			}
-		}
-		B b=new B();
-		b.innermeth();
-	}
-}
+class Bank {
+    void showAccountDetails() {
+      
+        class Account {
+            void display() {
+                System.out.println("Account holder name:Rajan");
+                System.out.println("Account Type: Savings");
+            }
+        }
 
+        
+        Account acc = new Account();
+        acc.display();
+    }
+}
 
 public class Main {
- public static void main(String[] args) {
-	A a=new A();
-	a.meth();
-	
-}
+    public static void main(String[] args) {
+        Bank bank = new Bank();
+        bank.showAccountDetails();
+    }
 }

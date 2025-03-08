@@ -1,55 +1,48 @@
 package anonymous_inner_class;
 
-interface A{
-	void meth1();
+
+interface Employee {
+    void work();
 }
 
 
-abstract class B{
-	abstract void meth2();
+abstract class Department {
+    abstract void departmentInfo();
 }
 
 
-class C{
-	void meth3() {
-		
-	}
+class Company {
+    void companyInfo() {
+        System.out.println("Company Name:tech.");
+    }
 }
-
 
 public class Main {
-	public static void main(String[] args) {
-		A a=new A() {
-			
-			@Override
-			public void meth1() {
-				// TODO Auto-generated method stub
-				System.out.println("A class meth1");
-				
-			}
-		};
-		a.meth1();
-		
-		
-		B b=new B() {
-			
-			@Override
-			void meth2() {
-				// TODO Auto-generated method stub
-				System.out.println("b class meth2");
-				
-			}
-		};
-		b.meth2();
-		
-		
-		C c=new C() {
-			void meth3() {
-				System.out.println("c class  meth3");
-			}
-			
-		};
-		c.meth3();
-	}
+    public static void main(String[] args) {
+        // Anonymous inner class for Employee
+        Employee emp = new Employee() {
+            @Override
+            public void work() {
+                System.out.println("Employee is working on a project.");
+            }
+        };
+        emp.work();
 
+        // Anonymous inner class for Department
+        Department dept = new Department() {
+            @Override
+            void departmentInfo() {
+                System.out.println("Department: Software Development");
+            }
+        };
+        dept.departmentInfo();
+
+        // Anonymous inner class for Company
+        Company company = new Company() {
+            void companyInfo() {
+                System.out.println("Company Name:RJ");
+            }
+        };
+        company.companyInfo();
+    }
 }

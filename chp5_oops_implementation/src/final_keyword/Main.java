@@ -1,12 +1,14 @@
 package final_keyword;
 
 final class Emp{
-	final int a=10;
+	final int empId=10;
+	final String empName="Tom";
 	
 	
 	 final void displayInfo() {
 		// TODO Auto-generated method stub
-		System.out.println(a);
+		System.out.println(empId);
+		System.out.println(empName);
 
 	}
 }
@@ -17,5 +19,9 @@ final class Emp{
 
 
 public class Main {
+	public static void main(String[] args) {
+		Emp emp=new Emp();
+		emp.displayInfo();
+	}
 
 }

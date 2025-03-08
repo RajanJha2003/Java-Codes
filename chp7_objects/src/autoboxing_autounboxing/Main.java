@@ -4,16 +4,15 @@ package autoboxing_autounboxing;
 
 public class Main {
   public static void main(String[] args) {
-	int a=10;
+	int balance=10000;
 	
-	Integer b=a;   // autoboxing
-	System.out.println(b);
-	System.out.println(b.getClass().getSimpleName());
-	
-	
-	int c=b; // autounboxing
-	
-	System.out.println();
-	System.out.println(c);
+	// auto boxing
+     Integer accountBalance=balance;
+     
+     // auto unboxing
+     int deposit=accountBalance;
+     
+     System.out.println(accountBalance);
+     System.out.println(deposit);
 }
 }
