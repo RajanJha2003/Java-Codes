@@ -2,6 +2,9 @@ package interface_class;
 
 
 interface Company{
+    String companyName = "RJ Tech";
+    String location = "Mumbai";
+
 	void work();
 	void time();
 }
@@ -49,9 +52,15 @@ class Employee implements Company{
 public class Main {
 	
 	public static void main(String[] args) {
+		
+		
+		System.out.println(Company.companyName);
+		System.out.println(Company.location);
 		Manager manager=new Manager();
 		manager.work();
 		manager.time();
+		
+		
 		
 		System.out.println("---------------------------------------");
 		

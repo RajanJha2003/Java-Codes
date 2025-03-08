@@ -3,9 +3,11 @@ package abstract_class;
 abstract class Company {
 
 	abstract void salary();
+	
+	static String companyName="RJ Tech";
 
 	static void companyInfo() {
-		System.out.println("XYZ company");
+		System.out.println(companyName);
 	}
 
 	void displayEmpDetails() {
@@ -28,7 +30,7 @@ public class Main {
 		Employee employee = new Employee();
 		employee.salary();
 		employee.displayEmpDetails();
-	Employee.companyInfo();
+	    Employee.companyInfo();
 
 	}
 }
