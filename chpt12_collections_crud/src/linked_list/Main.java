@@ -1,15 +1,33 @@
 package linked_list;
 
 import java.util.ArrayList;
+
 import java.util.LinkedList;
 import java.util.List;
 
+
+
 public class Main {
 	public static void main(String[] args) {
-		Emp emp=new Emp(10, "Rajan", 1000000);
-		Emp emp1=new Emp(11, "Tom", 250000);
-		Emp emp2=new Emp(12, "Jerry", 300000);
-		Emp emp3=new Emp(13, "Harry", 150000);
+		Emp emp = new Emp();
+        emp.setId(10);
+        emp.setName("Rajan");
+        emp.setSalary(1000000);
+
+        Emp emp1 = new Emp();
+        emp1.setId(11);
+        emp1.setName("Tom");
+        emp1.setSalary(250000);
+
+        Emp emp2 = new Emp();
+        emp2.setId(12);
+        emp2.setName("Jerry");
+        emp2.setSalary(300000);
+
+        Emp emp3 = new Emp();
+        emp3.setId(13);
+        emp3.setName("Harry");
+        emp3.setSalary(150000);
 		
 		LinkedList<Emp> linkedList=new LinkedList<Emp>();
 		linkedList.add(emp);

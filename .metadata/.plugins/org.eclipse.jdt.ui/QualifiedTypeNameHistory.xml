@@ -40,4 +40,6 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="map_crud.OperationsImp"/>
     <fullyQualifiedTypeName name="interface_class.Company"/>
+    <fullyQualifiedTypeName name="final_keyword.Emp"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
